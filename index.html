@@ -107,15 +107,6 @@
   $('.js-reload').on('click', function () {
     window.location.href = window.location.href + '?s=' + (+new Date())
   })
-
-  $('.js-invite').on('click', function () {
-    $('.wxShare').show()
-  })
-
-  $('.wxShare').on('click', function () {
-    $('.wxShare').hide()
-  })
-
   // listener
   window.addEventListener('load', function () {
     domReady = true
